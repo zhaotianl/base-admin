@@ -14,3 +14,9 @@ public class BaseAdminApplicationTests {
     }
 
 }
+
+
+class  Dao<T>{
+    private Class<T> entity;
+
+}

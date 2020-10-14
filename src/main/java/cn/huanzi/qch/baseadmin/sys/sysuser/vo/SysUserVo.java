@@ -1,6 +1,8 @@
 package cn.huanzi.qch.baseadmin.sys.sysuser.vo;
 
-import cn.huanzi.qch.baseadmin. common.pojo.PageCondition;import lombok.Data;
+import cn.huanzi.qch.baseadmin. common.pojo.PageCondition;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import lombok.Data;
 import java.io.Serializable;
 import java.util.Date;
 

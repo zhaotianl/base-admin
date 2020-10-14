@@ -46,7 +46,7 @@ spring:
 
 #是否需要输入验证码
 captcha:
-  enable: false
+  enable: true
 
 ---
 ##### prod 配置 #######

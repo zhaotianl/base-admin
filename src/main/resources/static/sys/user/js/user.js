@@ -97,7 +97,7 @@ layui.use(['element', 'form', 'table', 'layer', 'laydate', 'tree', 'util'], func
     });
 
     //头工具栏事件
-    table.on('toolbar(test)', function (obj) {
+    table.on('toolbar(test)', function (obj) {debugger
         switch (obj.event) {
             case 'addData':
                 //重置操作表单

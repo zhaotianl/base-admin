@@ -245,7 +245,7 @@ commonUtil = {
 commonUtil.jqueryFnExtend();
 
 //判断api加密开关
-if(sessionStorage.getItem('sysApiEncrypt') === "Y"){
+if(sessionStorage.getItem('sysApiEncrypt') === "Y"){debugger
     //获取前端RSA公钥密码、AES的key，并放到window
     let genKeyPair = rsaUtil.genKeyPair();
     window.jsPublicKey = genKeyPair.publicKey;
@@ -282,7 +282,7 @@ if(sessionStorage.getItem('sysApiEncrypt') === "Y"){
         }
 
         //加密再传输
-        if (opt.type.toLowerCase() === "post") {
+        if (opt.type.toLowerCase() === "post") {debugger
             let data = opt.data;
             //发送请求之前随机获取AES的key
             let aesKey = aesUtil.genKey();
