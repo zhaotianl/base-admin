@@ -13,6 +13,7 @@ public @interface Between {
      * 最小值的实体属性名
      * dddddddddddddd
      */
+    /****/
     String min();
 
     /**
